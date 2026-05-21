@@ -1,4 +1,4 @@
-# Denizaltı Savaş Oyunu (Submarine Combat Game)
+# Denizaltı Savaş Oyunu (Submarine  Game)
 
 Bu proje, modern JavaScript ve Nesne Tabanlı Programlama (OOP) prensipleri kullanılarak geliştirilmiş, modüler yapıya sahip 2D bir su altı savaş simülasyonudur.
 
