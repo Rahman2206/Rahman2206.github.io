@@ -19,6 +19,8 @@ export class Enemy {
         
         // Düşmanın ilerleme hızını rastgele belirler
         this.speed = Math.random() * 2 + 1.5;
+
+        // dusman vurdugunda nesne silinecektir
         this.markedForDeletion = false;
 
         // Ateş etme zamanlaması için gerekli değişkenler
