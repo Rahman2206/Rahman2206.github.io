@@ -1,8 +1,8 @@
-# Denizaltı Modüler Savaş Oyunu (Submarine Modular Combat Game)
+# Denizaltı Savaş Oyunu (Submarine Combat Game)
 
 Bu proje, modern JavaScript ve Nesne Tabanlı Programlama (OOP) prensipleri kullanılarak geliştirilmiş, modüler yapıya sahip 2D bir su altı savaş simülasyonudur.
 
-## 🎯 Oyunun Hedefi ve Zorluklar (Challenge)
+## 🎯 Oyunun Hedefi ve Zorluklar 
 
 **Temel Hedef:**
 Oyuncu, kontrol ettiği yüksek teknolojiye sahip denizaltı ile düşman sularında hayatta kalmalı ve belirlenen imha hedefine (Kills) ulaşmalıdır.
