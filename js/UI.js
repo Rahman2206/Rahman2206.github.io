@@ -18,7 +18,7 @@ export class UI {
         // Oyunun mevcut durumuna göre hangi ekranın çizileceğine karar verir
         if (this.game.gameState === 'home') {
             // Ana menü ekranı
-            this.drawMenu(context, 'DENİZALTI MODÜLER OYUN', 'Başlamak için Tıkla', '#00ffff');
+            this.drawMenu(context, 'DENİZALTI OYUN', 'Başlamak için Tıkla', '#00ffff');
         } else if (this.game.gameState === 'playing' || this.game.gameState === 'pausing') {
             // Oyun içi HUD (Can barı ve Skor)
             this.drawStatus(context);

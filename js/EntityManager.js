@@ -12,10 +12,11 @@ export class EntityManager {
         
         // Düşmanların çıkış zamanlaması (milisaniye cinsinden)
         this.enemyTimer = 0;
-        this.enemyInterval = 1500; // Her 1.5 saniyede bir yeni düşman oluşturur
+        this.enemyInterval = 3000; // Her 3.0 saniyede bir yeni düşman oluşturur
     }
 
     update(deltaTime) {
+        
         // --- Düşman Oluşturma Mantığı ---
         this.enemyTimer += deltaTime;
         if (this.enemyTimer > this.enemyInterval) {
@@ -32,7 +33,7 @@ export class EntityManager {
 
         // --- Toplu Temizlik (Cleanup) ---
         // 'markedForDeletion' (silinmek üzere işaretlenmiş) olan nesneleri listelerden temizler
-        // Bu işlem bellek yönetimi ve performans için kritiktir
+        
         this.enemies = this.enemies.filter(e => !e.markedForDeletion);
         this.projectiles = this.projectiles.filter(p => !p.markedForDeletion);
         this.enemyProjectiles = this.enemyProjectiles.filter(ep => !ep.markedForDeletion);
